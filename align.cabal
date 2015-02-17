@@ -2,24 +2,24 @@
 --  see http://haskell.org/cabal/users-guide/
 
 name:                align
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Tool for aligning tabular data
--- description:         
+-- description:
 license:             MIT
 license-file:        LICENSE.txt
 author:              Elliot Cameron
 maintainer:          eacameron@gmail.com
-copyright:           Covenant Eyes 2014
+copyright:           Covenant Eyes 2015
 category:            Text
 build-type:          Simple
--- extra-source-files:  
+-- extra-source-files:
 cabal-version:       >=1.10
 
 executable align
   main-is:             Main.hs
-  -- other-modules:       
-  -- other-extensions:    
-  build-depends:       base >=4.6 && <4.7,
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base >=4.6 && <4.8,
                        split,
                        optparse-applicative
   hs-source-dirs:      src
